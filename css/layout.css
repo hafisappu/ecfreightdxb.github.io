@@ -307,6 +307,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .promo-block .promo-block-title {
+  
   font-size: 70px;
   font-style: italic;
   color: #101663;
@@ -316,6 +317,7 @@ fieldset[disabled] .btn-theme {
 @media (max-width: 480px) {
   .promo-block .promo-block-title {
     font-size: 50px;
+    float: right;
   }
 }
 
