@@ -258,6 +258,43 @@ fieldset[disabled] .btn-theme {
   padding: 20px 30px;
 }
 
+.getqt {
+  display: inline-block;
+  min-width: 140px;
+  position: relative;
+  margin: 10px;
+  padding: 15px 0;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  background: #333;
+  color: #fff;
+}
+
+.getqt span {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.styleFour:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-image: linear-gradient(45deg, #209cff 0%, #68e0cf 100%);
+  transition: width 0.7s cubic-bezier(0.35, 0.7, 0.35, 1)0s;
+  -webkit-transition: width 0.7s cubic-bezier(0.35, 0.7, 0.35, 1)0s;
+}
+.styleFour:hover:before {
+  width: 100%;
+  right: 0;
+  left: auto; 
+}
+
+
 /*------------------------------------------------------------------
     [Progress Bar]
 ------------------------------------------------------------------*/
@@ -323,7 +360,7 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-text {
   font-size: 25px;
   font-family: Brush Script MT;
-  color: #101663;
+  color: #6d77ff;
 }
 
 .promo-block .promo-block-divider {
