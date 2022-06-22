@@ -347,7 +347,7 @@ fieldset[disabled] .btn-theme {
   
   font-size: 70px;
   font-family: Serif;
-  color: #101663;
+  color: #000000;
   line-height: 1;
 }
 
@@ -360,7 +360,7 @@ fieldset[disabled] .btn-theme {
 .promo-block .promo-block-text {
   font-size: 25px;
   font-family: Brush Script MT;
-  color: #6d77ff;
+  color: #223175;
 }
 
 .promo-block .promo-block-divider {
@@ -655,7 +655,7 @@ fieldset[disabled] .btn-theme {
   display: inline-block;
   width: 500px;
   height: auto;
-  max-width: 150%;
+  max-width: 250%;
   max-height: 100%;
   vertical-align: middle;
 }
