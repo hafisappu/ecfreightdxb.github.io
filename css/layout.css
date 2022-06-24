@@ -635,11 +635,12 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 1
+  00px;
   float: left;
-  max-height: 95px;
-  line-height: 65px;
+  max-height: 500px;
+  line-height: 100px;
 }
 
 .header .logo-wrap {
