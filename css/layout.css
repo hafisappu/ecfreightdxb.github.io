@@ -343,6 +343,11 @@ fieldset[disabled] .btn-theme {
   padding: 220px 0 130px;
 }
 
+.mainimg {
+  width: 600px;
+  height: 200px;
+}
+
 .promo-block .promo-block-title {
   
   font-size: 70px;
